@@ -160,3 +160,27 @@ footer {
 .food-card button:hover {
     opacity: 0.8;
 }
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links a {
+        margin: 5px;
+        display: inline-block;
+    }
+
+    .hero h2 {
+        font-size: 35px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .food-card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
